@@ -6,6 +6,10 @@ import 'package:signalr_core/signalr_core.dart';
 Future<void> main(List<String> arguments) async {
   final connection = HubConnectionBuilder()
       .withUrl(
+
+          //.
+          //hellow world.
+
           'http://chat.najumsons.com/chathub',
           HttpConnectionOptions(
             client: IOClient(
