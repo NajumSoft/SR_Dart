@@ -7,7 +7,8 @@ Future<void> main(List<String> arguments) async {
   final connection = HubConnectionBuilder()
       .withUrl(
 
-          //Some test comments.
+          //.
+
           'http://chat.najumsons.com/chathub',
           HttpConnectionOptions(
             client: IOClient(
